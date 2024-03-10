@@ -29,3 +29,5 @@ Route::get("list2",[productcontroller::class,'list2']);
 Route::get("/upload",[uploadmngcontroller::class,"upload"])->name("upload");
 Route::post("/upload",[uploadmngcontroller::class,"uploadpost"])->name("upload.post");
 
+// pull from git hub
+
