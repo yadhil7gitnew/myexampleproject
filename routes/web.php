@@ -29,6 +29,10 @@ Route::get("list2",[productcontroller::class,'list2']);
 Route::get("/upload",[uploadmngcontroller::class,"upload"])->name("upload");
 Route::post("/upload",[uploadmngcontroller::class,"uploadpost"])->name("upload.post");
 
+<<<<<<< HEAD
 //my first repositary command
 
+=======
+// pull from git hub
+>>>>>>> 11a473fe89d9d4cfd421a6ba119d9fdce9445535
 
